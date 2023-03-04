@@ -83,10 +83,11 @@ WK_CLASS_AVAILABLE(macos(10.11), ios(9.0))
 /*! @abstract Returns the cookie store representing HTTP cookies in this website data store. */
 @property (nonatomic, readonly) WKHTTPCookieStore *httpCookieStore WK_API_AVAILABLE(macos(10.13), ios(11.0));
 
-#if __has_include(<Network/proxy_config.h>)
+#if __has_include(<Network/proxy_config_private.h>)
 /*! @abstract Sets the proxy configuration to be used for networking in all WKWebViews that use this WKWebsiteDataStore.
  @param proxyConfiguration The proxy configuration to use.
-*/- (void)setProxyConfiguration:(nw_proxy_config_t)proxyConfiguration WK_API_AVAILABLE(macos(WK_MAC_TBA), ios(WK_IOS_TBA));
+*/
+- (void)setProxyConfiguration:(nw_proxy_config_t)proxyConfiguration WK_API_AVAILABLE(macos(WK_MAC_TBA), ios(WK_IOS_TBA));
 #endif
 
 @end
