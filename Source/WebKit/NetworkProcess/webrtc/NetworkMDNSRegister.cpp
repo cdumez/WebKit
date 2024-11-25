@@ -47,6 +47,16 @@ NetworkMDNSRegister::NetworkMDNSRegister(NetworkConnectionToWebProcess& connecti
 
 NetworkMDNSRegister::~NetworkMDNSRegister() = default;
 
+void NetworkMDNSRegister::ref() const
+{
+    m_connection->ref();
+}
+
+void NetworkMDNSRegister::deref() const
+{
+    m_connection->deref();
+}
+
 bool NetworkMDNSRegister::hasRegisteredName(const String& name) const
 {
     return m_registeredNames.contains(name);
