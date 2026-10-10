@@ -1,6 +1,5 @@
 [ macOS ] Modules/mediastream/RTCDTMFSender.cpp
 [ macOS ] Modules/webaudio/AudioContext.cpp
-css/values/CSSValueTypes+DeprecatedCSSOMValueCreation.h
 [ macOS ] dom/Document.cpp
 [ macOS ] page/OpportunisticTaskScheduler.cpp
 [ macOS ] page/Page.cpp

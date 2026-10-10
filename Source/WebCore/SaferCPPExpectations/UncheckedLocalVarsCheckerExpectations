@@ -10,6 +10,7 @@
 [ macOS ] bindings/js/JSDOMConvertUnion.h
 [ macOS ] bindings/js/JSDOMWrapperCache.h
 [ macOS ] css/query/MediaQueryFeatures.cpp
+[ macOS ] css/MutableStyleProperties.cpp
 [ macOS ] css/typedom/DeclaredStylePropertyMap.cpp
 [ macOS ] css/typedom/InlineStylePropertyMap.cpp
 [ macOS ] dom/DataTransfer.cpp
