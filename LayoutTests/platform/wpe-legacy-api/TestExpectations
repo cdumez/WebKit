@@ -124,6 +124,8 @@ webkit.org/b/186879 fast/events/popup-allowed-from-gesture-initiated-event.html 
 webkit.org/b/186879 fast/events/popup-blocked-from-fake-user-gesture.html [ Timeout ]
 webkit.org/b/186879 fast/events/popup-blocking-timers1.html [ Timeout ]
 
+webkit.org/b/327183 imported/w3c/web-platform-tests/html/semantics/interactive-elements/commands/option/option-accesskey.html [ Failure ]
+
 #//////////////////////////////////////////////////////////////////////////////////////////
 # End of Triaged Expectations
 #//////////////////////////////////////////////////////////////////////////////////////////
